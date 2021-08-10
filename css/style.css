@@ -1,12 +1,14 @@
 body {
     background-color: bisque;
-    /* text-align: center; */
     margin: 0;
-    /* width: 500px; */
 }
 
 h1 {
     color: red;
+}
+
+h2 {
+    text-align: center;
 }
 
 p {
@@ -14,8 +16,8 @@ p {
 }
 
 .container {
-    /* margin-right: 100px; */
-    /* margin-left: 100px; */
+    /* margin-right: 500px;
+    margin-left: 500px; */
 }
 
 a,
