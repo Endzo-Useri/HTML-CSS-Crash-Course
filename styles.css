@@ -28,11 +28,6 @@ p {
     font-size: 1.25rem;
 }
 
-.container {
-    /* margin-right: 500px;
-    margin-left: 500px; */
-}
-
 .btn {
     display: inline-block;
     background: hsl(240, 100%, 50%);
