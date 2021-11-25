@@ -10,6 +10,7 @@ html {
 
 body {
     background: bisque;
+		font-family: sans-serif;
     margin: 0;
 		text-align: center;
 }
@@ -18,16 +19,9 @@ h1 {
     color: red;
 }
 
-/* Experimenting with color styles */
-
 h2 {
     font-size: 3.125rem;
-    /* color: #42f4df; */
-    /* color: #f77002; */
-    color: #13a351;
-    /* color: rgb(206, 105, 72); */
-    /* color: rgb(229, 0, 255); */
-    /* color: hsl(264, 100%, 30%); */
+    color: rgb(206, 105, 72);
 }
 
 p {
@@ -46,7 +40,7 @@ a,
     font-weight: bold;
 }
 
-.text-color {
+.btn {
     display: inline-block;
     background: blue;
     color: #fff;
@@ -57,9 +51,10 @@ a,
 		transition: transform 300ms ease-in-out;
 }
 
-.text-color:hover,
-.text-color:focus {
+.btn:hover,
+.btn:focus-visible {
     background: bisque;
     color: #000;
+		outline-offset: .5rem;
 		transform: scale(1.05);
 }
