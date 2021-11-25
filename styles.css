@@ -14,6 +14,7 @@ body {
 		font-size: 1.5em;
     margin: 0;
 		text-align: center;
+		min-height: 100vh;
 }
 
 h1 {
@@ -24,18 +25,14 @@ h2 {
     color: hsl(15, 58%, 55%);
 }
 
-p {
-    font-size: 1.25rem;
-}
-
 .btn {
     display: inline-block;
     background: hsl(240, 100%, 50%);
-    color: #fff;
+    color: hsla(0, 0%, 100%, .8);
     border-radius: 1.5625rem;
     border: 3px solid hsl(240, 100%, 50%);
     font-weight: bold;
-    padding: .5em 1.25em;
+    padding: .3em .75em;
     text-decoration: none;
 		text-transform: uppercase;
 		letter-spacing: .1rem;
@@ -44,8 +41,8 @@ p {
 
 .btn:hover,
 .btn:focus-visible {
-    background: bisque;
-    color: #000;
+    background: hsl(33, 100%, 88%);
+    color: hsl(240, 100%, 50%);
 		outline-offset: .5rem;
 		transform: scale(1.05);
 }
