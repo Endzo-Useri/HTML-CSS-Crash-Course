@@ -11,17 +11,16 @@ html {
 body {
     background: bisque;
     margin: 0;
+		text-align: center;
 }
 
 h1 {
     color: red;
-		text-align: center;
 }
 
 /* Experimenting with color styles */
 
 h2 {
-    text-align: center;
     font-size: 3.125rem;
     /* color: #42f4df; */
     /* color: #f77002; */
@@ -43,7 +42,7 @@ p {
 a,
 .text-color {
     border-radius: 1.5625rem;
-    border: 3px solid black;
+    border: 3px solid blue;
     font-weight: bold;
 }
 
@@ -53,10 +52,14 @@ a,
     color: #fff;
     padding: .5em 1.25em;
     text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: .1rem;
+		transition: transform 300ms ease-in-out;
 }
 
 .text-color:hover,
 .text-color:focus {
     background: bisque;
     color: #000;
+		transform: scale(1.05);
 }
